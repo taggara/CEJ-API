@@ -1,4 +1,4 @@
-#CEJ: Transaction API
+**CEJ: Transaction API**
 
 **Components**
 
