@@ -1,6 +1,7 @@
 CEJ: Transaction API
 
 **Components**
+
 Bottle Application:
 - Handles routes such as `/cej/login`, `/cej/auth`, and `/cej/transactions`.
 - Integrates with OAuth2 for authentication via Azure AD.
@@ -19,6 +20,7 @@ Py4J Gateway:
 - Facilitates script execution from a Java environment.
 
 **Data Flow**
+
 1. User Authentication:
 - User access ` `. A check is done for a current token.\cej\transactions
 - User is redirected to `/cej/login`, triggering OAuth2 authorization flow.
@@ -39,4 +41,5 @@ This architecture ensures secure authentication, efficient transaction processin
 - Allows Tomcat to invoke Python scripts for transaction processing.
 
 **Use Cases**
+
 1. Retail Applications - Sales Data Integration
